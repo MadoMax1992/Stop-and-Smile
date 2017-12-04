@@ -1,0 +1,70 @@
+{
+  "questions": [{
+      "answers": [
+        "110m x 50m",
+        "100m x 60m",
+        "110m x 60m",
+        "90m x 60m"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 1,
+      "prompt": "How long an wide is a Lacrosse Field?"
+    },
+    {
+      "answers": [
+        "1,8m x 1,8m",
+        "1,5m x 1,5m",
+        "1,4m x 1,4m",
+        "2m x 2m"
+      ],
+      "correct": {
+        "index": 0
+      },
+      "number": 2,
+      "prompt": "How big is a goal?"
+    },
+    {
+      "answers": [
+        "2,5m",
+        "2,75m",
+        "3m",
+        "3,5m"
+      ],
+      "correct": {
+        "index": 2
+      },
+      "number": 3,
+      "prompt": "How big is the radius of the goal crease?"
+    },
+    {
+      "answers": [
+        "20m",
+        "12m",
+        "19m",
+        "18m"
+      ],
+      "correct": {
+        "index": 3
+      },
+      "number": 4,
+      "prompt": "How big is the distance between centerline and goal line?"
+    },
+    {
+      "answers": [
+        "2m",
+        "4m",
+        "3m",
+        "3,5m"
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 5,
+      "prompt": "What is the minimum distance between sideline and scoretable ?"
+    }
+  ],
+  "title": "How well do you know the Field measurements?",
+  "url": "http://urbaninstitute.github.io/quick-quiz/"
+}
