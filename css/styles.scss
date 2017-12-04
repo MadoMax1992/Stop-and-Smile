@@ -1,0 +1,500 @@
+$background-color-grey: rgb(238, 238, 238);
+body,
+html {
+    font-family: 'Montserrat', sans-serif!important;
+    height: 100%;
+    background-color: $background-color-grey!important;
+    font-size: 1rem;
+}
+
+
+
+h1,
+h3 {
+    margin-top: 10px!important;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+hr {
+    border-top: 1px solid!important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bubble {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.extra-margin {
+    margin: 20px;
+}
+
+
+/*Navigation*/
+
+.navbar-left {
+    position: absolute;
+}
+
+#navigation {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15px;
+    left: -13px;
+    top: 10rem;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#navigation a {
+    color: black;
+    font-size: 150%;
+}
+
+#navigation a:hover {
+    font-size: 250%;
+}
+
+.navbar-left{
+    background: transparent;
+}
+
+/*Landing*/
+
+#landing {
+    padding-bottom: 4rem;
+}
+
+#landing .landing-btn {
+    margin-top: 1rem;
+    background-color: $background-color-grey;
+}
+
+#landing .landing-btn:hover {
+    background-color: black;
+}
+
+#landing .form-control:focus {
+    border-color: black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+/*Content*/
+
+#content {
+    padding-top: 3rem;
+}
+
+#content .card:hover {
+    border: 2px solid black;
+}
+
+#content .card-text {
+    font-size: 3rem;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+
+/*quiz*/
+
+#quiz {
+    padding:  1rem 5rem;
+}
+
+#quiz .quiz-margin {
+    margin-bottom: 50px;
+}
+
+#quetions {
+    padding-bottom: 60px;
+    height: 450px;
+    display: block;
+}
+
+
+/*lessons*/
+
+.lesson-heading {
+    padding: 0;
+}
+.single-text, .lead-text, .trail-text, .cbo-text{
+    display: none
+}
+
+
+#lessons a:hover {
+    text-decoration: none;
+}
+
+#accordion {
+    width: 100%;
+}
+
+#accordion .card-header{
+    padding-bottom: 0px;
+}
+
+
+
+#coverage {
+    .card-header {
+        background-color: $background-color-grey;
+    }
+    .st0 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1;
+        stroke-miterlimit: 10;
+    }
+    .st1 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st2 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .st3 {
+        font-size: 26.3363px;
+    }
+    .st4 {
+        font-size: 26.273px;
+    }
+    .st5 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #FFFFFF;
+    }
+    .st6 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1;
+        stroke-miterlimit: 8;
+    }
+    .st7 {
+        fill: #FC0128;
+    }
+    .st8 {
+        font-size: 18.4228px;
+    }
+    .st9 {
+        fill: #0000FF;
+    }
+    .st10 {
+        font-size: 18.3595px;
+    }
+    .st11 {
+        fill: none;
+        stroke: transparent;
+        stroke-width: 1;
+        stroke-linejoin: round;
+        stroke-miterlimit: 8;
+        pointer-events: all;
+    }
+    .st12 {
+        fill: none;
+        stroke: black;
+        stroke-width: 1;
+        stroke-linejoin: round;
+        stroke-miterlimit: 8;
+    }
+    .st13 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+    }
+    .single:hover {
+        fill: rgba(200, 0, 0, 0.15);
+    }
+    .lead:hover {
+        fill: rgba(0, 200, 0, 0.15);
+    }
+    .trail:hover {
+        fill: rgba(0, 0, 200, 0.15);
+    }
+}
+
+#positining {
+    .card-header {
+        background-color: $background-color-grey;
+    }
+    .st0 {
+        fill: none;
+    }
+    .st1 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6012;
+        stroke-miterlimit: 10;
+    }
+    .st2 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6012;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .st4 {
+        font-size: 11.9602px;
+    }
+    .st5 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #FFFFFF;
+    }
+    .st6 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6012;
+        stroke-miterlimit: 8;
+    }
+    .st7 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: url(#SVGID_5_);
+    }
+    .st8 {
+        fill: none;
+        stroke: transparent;
+        stroke-miterlimit: 10;
+        pointer-events: all;
+    }
+    .single:hover {
+        fill: rgba(200, 0, 0, 0.15);
+    }
+    .lead:hover {
+        fill: rgba(0, 200, 0, 0.15);
+    }
+    .trail:hover {
+        fill: rgba(0, 0, 200, 0.15);
+    }
+}
+
+#penalty {
+    .card-header {
+        background-color: $background-color-grey;
+    }
+    .st0 {
+        fill: none;
+    }
+    .st1 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.9805;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st2 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6642;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st3 {
+        fill: #C0C0C0;
+    }
+    .st4 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .st5 {
+        font-size: 15.8878px;
+    }
+    .st6 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: url(#SVGID_3_);
+    }
+    .st7 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .st8 {
+        font-size: 13.2926px;
+    }
+    .st9 {
+        font-size: 9.2415px;
+    }
+    .st10 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+    }
+    .st11 {
+        fill: none;
+        stroke: transparent;
+        stroke-miterlimit: 10;
+        pointer-events: all;
+    }
+    .single:hover {
+        fill: rgba(200, 0, 0, 0.15);
+    }
+    .lead:hover {
+        fill: rgba(0, 200, 0, 0.15);
+    }
+    .trail:hover {
+        fill: rgba(0, 0, 200, 0.15);
+    }
+}
+
+#fight {
+    .card-header {
+        background-color: $background-color-grey;
+    }
+    .st0 {
+        fill: none;
+    }
+    .st1 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.0278;
+        stroke-miterlimit: 10;
+    }
+    .st2 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6852;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+    }
+    .st3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .st4 {
+        font-size: 13.721px;
+    }
+    .st5 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: url(#SVGID_5_);
+    }
+    .st6 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6852;
+        stroke-miterlimit: 8;
+    }
+    .st7 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.6852;
+        stroke-linejoin: round;
+        stroke-miterlimit: 8;
+    }
+    .st8 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #FFFFFF;
+    }
+    .st9 {
+        fill: #FC0128;
+    }
+    .st10 {
+        font-size: 9.5728px;
+    }
+    .st11 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: none;
+        stroke: transparent;
+        stroke-miterlimit: 10;
+        pointer-events: all;
+    }
+    .single:hover {
+        fill: rgba(200, 0, 0, 0.15);
+    }
+    .lead:hover {
+        fill: rgba(0, 200, 0, 0.15);
+    }
+    .trail:hover {
+        fill: rgba(0, 0, 200, 0.15);
+    }
+    .cbo:hover {
+        fill: rgba(200, 200, 0, 0.15);
+    }
+}
+
+
+/* rules*/
+
+#handbooks {
+    padding-bottom: 3rem; 
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+#handbooks .rule-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.pdfobject-container {
+    height: 700px;
+}
+
+.pdfobject {
+    border: 1px solid black;
+}
+
+
+/*Profil*/
+
+#profil .bg-image {
+    background-image: url("../img/profil-stick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 35rem;
+}
+
+#profil .fa {
+    font-size: 250%;
+    padding-top: 5px;
+    background-color: white;
+}
+
+#profil .profil-padding {
+    padding: 1rem;
+}
+
+
+
+#profil li {
+    padding-bottom: 15px;
+}
+
+#profil .achievment{
+    height: 500px;;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
+    
+}
